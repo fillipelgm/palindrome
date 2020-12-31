@@ -1,5 +1,3 @@
-### Check whether a given string is a palindrome
-
 from string import digits, ascii_letters
 
 def isPalindrome(string):
@@ -22,9 +20,3 @@ def isPalindrome(string):
         else:
             return False
     return True
-
-
-words = ['arara', 'Hannah', 'only', 'radar', 'level', 'amora', "A man, a plan, a canal – Panama" ]
-
-for word in words:
-    print(word, isPalindrome(word))
